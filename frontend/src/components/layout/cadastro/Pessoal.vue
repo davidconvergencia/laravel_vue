@@ -6,7 +6,7 @@
 
     <v-row class="mx-2 mt-3">
         <v-col cols="12" sm="4">
-            <v-select clearable label="Sexo" v-model="sexo" :items="['feminino', 'masculino', 'não informar']" variant="outlined"
+            <v-select clearable label="Sexo" v-model="sexo" :items="['Feminina(o)', 'Masculina(o)', 'Não Informar']" variant="outlined"
                 color="blue"></v-select>
 
         </v-col>
@@ -15,7 +15,7 @@
                 clearable 
                 label="Nacionalidade" 
                 v-model="nacionalidade" 
-                :items="['brasileiro', 'estrangeiro']" 
+                :items="['Brasileira(o)', 'estrangeira(o)']" 
                 variant="outlined"
                 color="blue"></v-select>
         </v-col>
